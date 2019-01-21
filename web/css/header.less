@@ -1,0 +1,59 @@
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    /*border-bottom: 2px solid #660000;*/
+    padding: .5vh;
+    
+    #titre{
+        margin-left: 2%;
+        margin-right: 2%;
+        flex:2;
+        p{
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            border: 2px solid #660000;
+            border-radius: 5px;
+        }
+    }
+    
+    nav{
+        flex: 1;
+        min-width: 303px;
+        display: flex;
+        flex-direction: column;
+        #liens{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            
+            #texteRecherche{
+                padding-top: .2rem;
+                border: 2px solid #660000;
+                border-radius: 5px;
+                input{
+                    outline-color: #660000;
+                    margin:0;
+                    padding: 0;
+                    vertical-align: top;
+                }
+            }
+            input[type="submit"]{
+                margin: auto;
+                cursor: pointer;
+                border-color: #660000;
+                color: white;
+                font-weight: bold;
+                background: #272627;
+                padding: 5px 15px;
+                border-radius: 5px;
+            }
+        }
+        
+    }
+}

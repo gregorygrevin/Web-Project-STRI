@@ -1,0 +1,36 @@
+main{
+    section{
+        #presentation_groupe,
+        #documents_public,
+        #presentation_membres{
+            min-height: 2vh;
+            border-radius: 5px;
+            padding: 1vh 1vw;
+            margin: 0 .5vw 5vh .5vw;
+            background-color: white;
+        }
+        #documents_public{
+            display: flex;
+            justify-content: space-between;
+            .a_droite{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                >div{
+                    margin: 2vh 1vw;
+                    width: 15vw;
+                    height: 10vh;
+                }
+            }
+            
+            .video{
+                margin: 2vh 1vw;
+                width: 40vw;
+            }
+            .video, >div div{
+                border: 1px solid #660000;
+            }
+        }
+        
+    }
+}
